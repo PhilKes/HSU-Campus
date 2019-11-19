@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navgiation_view" >
+
+    <group android:checkableBehavior="single">
+
+      <!--  <item
+            android:id="@+id/nav_menu1"
+            android:icon="@drawable/ic_login_name"
+            android:title="Home" />-->
+        <item android:enabled="false" android:title="@string/overview" />
+        <item
+            android:id="@+id/nav_schedule"
+            android:icon="@drawable/ic_schedule"
+            android:title="@string/schedule" />
+        <item
+            android:id="@+id/nav_notifications"
+            android:icon="@drawable/ic_notifciation"
+            android:title="@string/notifications"
+            app:actionLayout="@layout/notification_menu_item"
+            app:showAsAction="always"/>
+        <item
+            android:id="@+id/nav_exercises"
+            android:icon="@drawable/ic_moodle"
+            android:title="@string/exercises"
+            app:actionLayout="@layout/notification_menu_item"
+            app:showAsAction="always"/>
+
+        <item android:enabled="false" android:title="@string/settings" />
+        <item
+            android:id="@+id/nav_security"
+            android:icon="@drawable/ic_passwd_close"
+            android:title="@string/security" />
+        <item
+            android:id="@+id/nav_other"
+            android:icon="@drawable/ic_settings"
+            android:title="@string/other" />
+      <item android:enabled="false" android:title="" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_exit"
+            android:title="@string/logout" />
+    </group>
+
+
+</menu>

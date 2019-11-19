@@ -1,0 +1,66 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlNormal">@color/border</item>
+      <!--  <item name="colorPrimaryMiddle">@color/colorPrimaryMiddle</item>-->
+        <item name="colorControlActivated">@color/colorAccent</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+        <item name="android:statusBarColor" tools:targetApi="lollipop">@color/colorPrimaryDark</item>
+        <item name="android:windowActivityTransitions">true</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:textColor">@color/textDark</item>
+    </style>
+    <style name="AppTheme.Toolbar" parent="AppTheme">
+        <item name="android:textColorPrimary">@color/textLight</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColor">@color/textLight</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="myDialog" parent="AppTheme.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!-- Alternative application theme. -->
+    <style name="AppThemeAlt" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryAlt</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkAlt</item>
+        <item name="colorAccent">@color/colorAccentAlt</item>
+     <!--   <item name="colorPrimaryMiddle">@color/colorPrimaryMiddleAlt</item>-->
+        <item name="colorControlNormal">@color/borderAlt</item>
+        <item name="colorControlActivated">@color/colorAccentAlt</item>
+        <item name="colorControlHighlight">@color/colorAccentAlt</item>
+        <item name="android:statusBarColor" tools:targetApi="lollipop">@color/colorPrimaryDarkAlt</item>
+        <item name="android:windowActivityTransitions">true</item>
+        <!-- specify enter and exit transitions -->
+    </style>
+
+    <style name="AppThemeAlt.NoActionBar" parent="AppThemeAlt">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:textColor">@color/textDarkAlt</item>
+    </style>
+    <style name="AppThemeAlt.Toolbar" parent="AppThemeAlt">
+        <item name="android:textColorPrimary">@color/textLightAlt</item>
+    </style>
+
+    <style name="AppThemeAlt.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColor">@color/textLightAlt</item>
+    </style>
+
+    <style name="AppThemeAlt.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="myDialogAlt" parent="AppTheme.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/exercise_item_highlight">
+
+    <TextView
+        android:id="@+id/txt_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        android:text="Teil3: DGL"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ic_assign"
+        app:layout_constraintEnd_toStartOf="@+id/btn_upload"
+        app:layout_constraintStart_toEndOf="@+id/ic_assign"
+        app:layout_constraintTop_toTopOf="@+id/ic_assign" />
+
+    <ImageView
+        android:id="@+id/ic_assign"
+        android:layout_width="38dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_assignments" />
+
+    <Button
+        android:id="@+id/btn_upload"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="@color/colorAccent"
+        android:drawableLeft="@drawable/ic_upload"
+        android:text="upload"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_due" />
+
+    <TextView
+        android:id="@+id/txt_due"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="9.Jan, 08:00"
+        app:layout_constraintEnd_toEndOf="@+id/btn_upload"
+        app:layout_constraintStart_toEndOf="@+id/txt_lesson"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_lesson"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Analysis 2"
+        android:textSize="11sp"
+        app:layout_constraintEnd_toEndOf="@+id/txt_title"
+        app:layout_constraintStart_toStartOf="@+id/txt_title"
+        app:layout_constraintTop_toBottomOf="@+id/txt_title" />
+
+</android.support.constraint.ConstraintLayout>

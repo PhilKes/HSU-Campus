@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_item_highlight">
+
+    <TextView
+        android:id="@+id/txt_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="8dp"
+        android:text="ANLY"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ic_notify"
+        app:layout_constraintEnd_toStartOf="@+id/txt_due"
+        app:layout_constraintStart_toEndOf="@+id/ic_notify"
+        app:layout_constraintTop_toTopOf="@+id/ic_notify" />
+
+    <ImageView
+        android:id="@+id/ic_notify"
+        android:layout_width="38dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_notifciation" />
+
+    <Button
+        android:id="@+id/btn_upload"
+        android:layout_width="37dp"
+        android:layout_height="36dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/ic_view"
+        app:layout_constraintBottom_toBottomOf="@+id/txt_title"
+        app:layout_constraintEnd_toStartOf="@+id/btn_delete_avatar"
+        app:layout_constraintTop_toTopOf="@+id/txt_title" />
+
+    <Button
+        android:id="@+id/btn_delete_avatar"
+        android:layout_width="36dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/ic_delete"
+        android:backgroundTint="@android:color/holo_red_dark"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_upload"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btn_upload" />
+
+    <TextView
+        android:id="@+id/txt_due"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_marginEnd="8dp"
+        android:text="08:00"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_upload"
+        app:layout_constraintEnd_toStartOf="@+id/btn_upload"
+        app:layout_constraintTop_toTopOf="@+id/btn_upload" />
+
+</android.support.constraint.ConstraintLayout>

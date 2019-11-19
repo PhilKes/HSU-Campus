@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">HSU Campus</string>
+    <string name="title_activity_login">Login</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="course">Course</string>
+    <string name="room_t">Room:</string>
+    <string name="add">add</string>
+    <string name="show_events">Show events</string>
+    <string name="trip">trip</string>
+    <string name="mo" translatable="false">Mo</string>
+    <string name="tue">Tue</string>
+    <string name="wed">Wed</string>
+    <string name="thu">Thu</string>
+    <string name="fri">Fri</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="save_user_and_password">Save user and password</string>
+    <string name="settings">Settings</string>
+    <string name="security">Account</string>
+    <string name="other">Other</string>
+    <string name="no_events_found">No events found</string>
+    <string name="date">Date</string>
+    <string name="newTxt">new</string>
+    <string name="old">old</string>
+    <string name="confirm">confirm</string>
+    <string name="please_confirm_your_old_password">Please confirm your old password:</string>
+    <string name="change_your_password">Change your password:</string>
+    <string name="auto_login">Auto Login?</string>
+    <string name="click_to_change_avatar">click to change avatar</string>
+    <string name="invalid">Invalid Credentials</string>
+    <string name="loginin">Login in...</string>
+    <string name="logingout">Do you want to log out?</string>
+    <string name="logout">Logout</string>
+    <string name="updatepwd">Updated Password</string>
+    <string name="notupdatepwd">Could not update password: DATABASE ERROR</string>
+    <string name="updateav">Updated Avatar</string>
+    <string name="notupdateav">Could not update avatar: DATABASE ERROR</string>
+    <string name="savechg">Saved changes</string>
+    <string name="confirmpwd">Confirm old password to save changes!</string>
+    <string name="titlesecurity">Account</string>
+    <string name="schedule">Schedule</string>
+    <string name="deleted">Deleted:</string>
+    <string name="events">events</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="notifications">Notifications</string>
+    <string name="noevents">No events today...</string>
+    <string name="today">Today</string>
+    <string name="exercises">Assignments</string>
+    <string name="overview">Overview</string>
+    <string name="clearavatar">Clear Avatar?</string>
+    <string name="txtclearavatar">Do you want to clear your avatar?</string>
+    <string name="delevent">Delete Event</string>
+    <string name="delete">Delete</string>
+    <string name="eventask">event?</string>
+    <string name="notifylesson">Notify when lesson is about to start</string>
+    <string name="options">Options</string>
+    <string name="home_location">Home Location</string>
+    <string name="pick_location">Please pick your home location!</string>
+    <string name="no_assignments">No Assignments found...</string>
+    <string name="passwd_length">Password has to be at least 5 letters long and contain a number!</string>
+    <string name="passwd_confirm">You have to confirm your new password!</string>
+    <string name="rating">Rating</string>
+    <string name="upload">Upload</string>
+</resources>

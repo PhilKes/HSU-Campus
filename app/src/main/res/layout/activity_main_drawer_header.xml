@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="192dp"
+    android:background="@drawable/drawer_header_background"
+    android:padding="16dp"
+    android:theme="@style/AppTheme.AppBarOverlay"
+    android:orientation="vertical"
+    android:gravity="bottom">
+
+    <TextView
+        android:id="@+id/txt_user2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="HS Ulm"
+        android:textColor="@color/textLight"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="34dp"
+        android:layout_height="29dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="4dp"
+        android:alpha=".75"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/logo_scircle" />
+
+<!--    <ImageView
+        android:id="@+id/img_avatar"
+        android:layout_width="61dp"
+        android:layout_height="63dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/round_image_view"
+        android:tint="@color/textLight"
+        app:layout_constraintBottom_toTopOf="@+id/txt_user2"
+        app:layout_constraintEnd_toEndOf="@+id/txt_user2"
+        app:layout_constraintStart_toStartOf="@+id/txt_user2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_login_name" />-->
+
+    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/img_avatar"
+        android:layout_width="68dp"
+        android:layout_height="68dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/round_image_view"
+        app:civ_border_color="@color/colorPrimaryDark"
+        app:civ_border_width="1dp"
+        app:layout_constraintBottom_toTopOf="@+id/txt_user2"
+        app:layout_constraintEnd_toEndOf="@+id/txt_user2"
+        app:layout_constraintStart_toStartOf="@+id/txt_user2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
